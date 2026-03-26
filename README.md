@@ -35,7 +35,7 @@ hd=(sin(pi*(n-alpha+eps))-sin((n-alpha+eps)*wc))./(pi*(n-alpha+eps))
 n=0:1:N-1;  
 wh=0.42-0.5*cos((2*pi*n)/(N-1))+0.08*cos((4*pi*n)/(N-1)) 
 hn=hd.*wh  
-% Plot the High Pass Filter with Blackman Window Technique 
+% Plot the Band Pass Filter with Blackman Window Technique 
 w=0:0.01:pi;  
 h=freqz(hn,1,w); 
 plot(w/pi,abs(h),'blue');
