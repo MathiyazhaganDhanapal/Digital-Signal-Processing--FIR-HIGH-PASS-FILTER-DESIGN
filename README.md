@@ -52,5 +52,5 @@ plot(w/pi,abs(h),'blue');
 
 ## RESULT:
 
-Thus the design of High pass FIR digital filter using Blackman waveforms were plotted 
-and output was verified. 
+![WhatsApp Image 2026-03-30 at 2 21 22 PM (3)](https://github.com/user-attachments/assets/8a3c0411-3e72-42ee-8ec0-3a491ba74013)
+
